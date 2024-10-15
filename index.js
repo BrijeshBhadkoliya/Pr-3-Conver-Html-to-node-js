@@ -1,4 +1,4 @@
-const { render } = require('ejs');
+
 const express = require('express');
 
 const port = 9000;
@@ -107,4 +107,6 @@ app.listen(port, (err) => {
         return false;
     }
     console.log(`server is running on port :- ${port}`);
+    console.log(`(ctrl + click) http://localhost:${port}`);
+    
 })
